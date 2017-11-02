@@ -21,13 +21,13 @@ app.get('/', function (req, res) {
 app.post('/upload', upload.single('upload_file'), function (req, res, next) {
 
     if (!req.file) {
-        return res.end('Missing file');
+        return res.end('<p>Missing file  <a href="/">Back</a></p>');
     }
 
     var fileInfo = path.parse(req.file.originalname);
 
     if (fileInfo.ext !== '.json') {
-        return res.end('File format must be JSON');
+        return res.end('<p>File format must be JSON <a href="/">Back</a></p>');
     }
 
     //Setup Object

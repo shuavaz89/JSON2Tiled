@@ -4,7 +4,7 @@
   "description": "This will convert your Tiled JSON file to the TMX format.",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "open http://localhost:3000 && node app.js"
   },
   "repository": {
     "type": "git",

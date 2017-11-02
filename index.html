@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>JSON to Tiled</title>
+    <meta charset="UTF-8">
+    <title>JSON2Tiled</title>
 
-<style>
+    <style>
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+        }
 
-</style>
+        div {
+            width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        button {
+            background: darkblue;
+            color: whitesmoke;
+            padding: 16px;
+            border: 0;
+            margin: 24px;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        a {
+            color: darkblue;
+        }
+    </style>
 </head>
 
 <body>
-<form id="form" name="myForqm" method="POST" action="/upload" enctype="multipart/form-data">
-<input type="file" name="upload_file" />
-<button type="submit" >Convert to Tiled</button>
-</form>
+    <div>
+        <h1>JSON2TILED</h1>
+
+        <p>Upload your JSON MAP Format file:</p>
+
+        <form id="form" name="myForqm" method="POST" action="/upload" enctype="multipart/form-data">
+            <input type="file" name="upload_file" />
+            <button type="submit">Convert to Tiled</button>
+        </form>
+
+        <p><small><a href="http://www.mapeditor.org/">Visit Tiled</a></small></p>
+    </div>
 </body>
 
 </html>
