@@ -1,0 +1,25 @@
+{
+  "name": "JSON2Tiled",
+  "version": "1.0.0",
+  "description": "This will convert your Tiled JSON file to the TMX format.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuavaz89/JSON2Tiled.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuavaz89/JSON2Tiled/issues"
+  },
+  "homepage": "https://github.com/shuavaz89/JSON2Tiled#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "xmlbuilder": "^9.0.4"
+  }
+}
