@@ -1,3 +1,10 @@
+/**
+ * JSON2Tiled 
+ * Convert Tiled JSON Map Format to Tiled TMX Map Format.
+ *
+ * 
+ */
+
 var express = require('express')
 var path = require('path');
 var multer = require('multer')
