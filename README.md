@@ -28,11 +28,11 @@ Must have [Node.JS](https://nodejs.org/en/) on your local machine.
 
 ## Authors
 
-* **Joshua Vazuqez** - [GitHub](https://github.com/shuavaz89) [Personal Website](http://joshvaz.com)
+* **Joshua Vazuqez** - [GitHub](https://github.com/shuavaz89) | [Personal Website](http://joshvaz.com)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
