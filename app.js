@@ -44,7 +44,7 @@ app.post('/upload', upload.array('upload_file'), function (req, res, next) {
             res.set('Content-Type', 'application/xml');
             res.send(xml);
         } else {
-            //Write xml file to temporary directory
+            //Append xml to zip
             zip.append(xml, {
                 name: fileInfo.name + '.tmx'
             })
