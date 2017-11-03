@@ -28,7 +28,7 @@ Must have [Node.JS](https://nodejs.org/en/) on your local machine.
 
 ## Authors
 
-* **Joshua Vazuqez** - [GitHub](https://github.com/shuavaz89) | [Personal Website](http://joshvaz.com)
+* **Joshua Vazquez** - [GitHub](https://github.com/shuavaz89) | [Personal Website](http://joshvaz.com)
 
 ## License
 
